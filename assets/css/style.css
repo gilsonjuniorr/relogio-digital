@@ -60,13 +60,20 @@ p {
 }
 
 @media screen and (max-width: 490px) {
-    #clock {
-        flex-direction: column;
-        height: 100%;
-        gap: 2rem;
-    }
 
     #container {
-        height: 100%;
+        padding: 10px;
+    }
+
+    #clock {
+        gap: 0.2rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 12px;
     }
 }
